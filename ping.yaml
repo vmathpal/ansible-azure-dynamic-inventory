@@ -1,0 +1,6 @@
+- name: Ping azure vms
+  hosts: linux
+
+  tasks:
+    - name: ping azure vms
+      ping:

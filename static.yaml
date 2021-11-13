@@ -1,0 +1,7 @@
+[_redhat]
+
+[_ubuntu]
+
+[linux:children]
+_ubuntu
+_redhat

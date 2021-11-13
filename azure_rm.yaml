@@ -1,0 +1,11 @@
+plugin: azure_rm
+auth_source: auto
+include_vm_resource_groups:
+  - 1-a38a05ad-playground-sandbox
+
+#conditional_groups:
+#  Ubuntu: "'UbuntuServer' in image.offer"
+#  Redhat: "'RHEL' in image.offer"
+
+keyed_groups:
+  - key: tags.OS
